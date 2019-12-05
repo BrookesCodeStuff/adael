@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Questrial|Rock+Salt&display=swap');
+
+:root {
+  --main-font-color: rgba(50, 50, 50, 0.8);
+  --main-font: Muli, Helvetica, Arial, sans-serif;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+}
+ 
+
+.main-container {
+  width: 90vw;
+  margin-block-start: 125px;
+  overflow: hidden;
+  font-family: var(--main-font);
+  font-size: 1.5em;
+}
+
+.headshot {
+  width: 25vw;
+  min-width: 150px;
+  height: auto;
+  float: left;
+  margin-inline-end: 15px;
+  shape-outside: margin-box;
+}
+
+@media all  and (min-width: 700px) {
+  .top-nav {
+    position: unset;
+  }
+
+  .main-container {
+    width: 80vw;
+    margin: 10%;
+  }
+
+}

@@ -1,0 +1,12 @@
+:root {
+  --main-font-color: rgba(255, 255, 255, .8);
+}
+
+.home {
+  background-image: url("/images/background.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
