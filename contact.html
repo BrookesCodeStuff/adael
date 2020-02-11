@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact me</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+  <header class="top-nav">
+    <div class="nameplate">
+      <h1 class="name"><a href="index.html">Adael Viera</a></h1>
+      <h3 class="title">Project Manager</h3>
+    </div>
+    <nav class="nav-links">
+      <ul class="nav-list">
+        <li><a href="./about.html" class="nav-link" id="about">about</a></li>
+        <li><a href="./resume.html" class="nav-link" id="resume">résumé</a></li>
+        <li><a href="./contact.html" class="nav-link" id="contact">contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-main">
+    <div class="filler"></div>
+    <div class="contact-container">
+      <h3>Say hi.</h3>
+      <form action="post">
+        <p>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Your name">
+        </p>
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email" placeholder="Your email">
+        </p> 
+          <label for="message">Message:</label><br>
+          <div class="message-box">
+            <textarea name="message" id="message" rows="5" placeholder="Say hello or something..."></textarea>
+          </div>
+        <p>
+          <button type="submit">send message</button>
+        </p>
+      </form>
+    </div>
+    <div class="filler"></div>
+  </main>
+</body>
+</html>

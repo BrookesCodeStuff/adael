@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Rock+Salt&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
 }
+
 .top-nav {
   display: flex;
   flex-wrap: wrap;
@@ -65,16 +71,9 @@ a {
   text-decoration: none;
 }
 
-a:active {
-  text-decoration: underline solid lightgreen .5em;
-  text-decoration-skip-ink: none;
-  text-underline-offset: -.5em;
-}
-
 a:hover {
   text-decoration: underline dotted;
 }
-
 a:visited {
   text-decoration: none;
   color: var(--main-font-color);

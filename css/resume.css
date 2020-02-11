@@ -1,0 +1,53 @@
+:root {
+  --main-font-color: rgba(50, 50, 50, 0.8);
+  --main-font: Muli, Helvetica, Arial, sans-serif;
+}
+
+.resume-main {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-content: center;
+  align-items: center;
+  justify-content: start;
+}
+
+.resume-header {
+  font-size: 2em;
+}
+
+.job {
+  margin: 0;
+  margin-block-start: 25px;
+}
+
+.job-header, .edu-header {
+  font-size: 1.8em;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+hr {
+  margin-block-end: 15px;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+@media all  and (min-width: 720px)  {
+  .resume-main {
+    display: grid;
+    grid-template-columns: 1fr 720px 1fr;
+    align-content: center;
+    align-items: center;
+    justify-content: start;
+  }
+}
